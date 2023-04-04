@@ -1,4 +1,8 @@
 # Rajesh Rout - Data Engineer
+<div align="right">
+  <img src="https://unsplash.com/photos/JKUTrJ4vK00" alt="Avatar" width="200" height="200">
+</div>
+
 
 ## Welcome to my profile! 
 
