@@ -1,6 +1,6 @@
 # Rajesh Rout - Data Engineer
 <div align="right">
-  <img src="https://ibb.co/BG5CfGh" alt="Avatar" width="200" height="200">
+  <a href="https://ibb.co/BG5CfGh"><img src="https://i.ibb.co/9hkrphx/big-data-engineer-1.jpg" alt="big-data-engineer-1" border="0"></a>
 </div>
 
 
