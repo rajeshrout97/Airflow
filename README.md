@@ -26,4 +26,4 @@ Data Scientist at Kipi.Bi Pvt. Ltd. Company (2021-Present)
 - ETL pipeline development
 
 ## LinkedIn Profile
-You can find my LinkedIn profile here. Please feel free to connect with me to discuss any data engineering-related opportunities or collaborations.
+You can find my LinkedIn profile [Link Here](https://www.linkedin.com/in/rajeshrout97/). Please feel free to connect with me to discuss any data engineering-related opportunities or collaborations.
