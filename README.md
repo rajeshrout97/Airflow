@@ -1,5 +1,5 @@
 # Rajesh Rout - Data Engineer
-<div align="right">
+<div align="center">
   <a href="https://ibb.co/VVnrT23"><img src="https://i.ibb.co/Y2nYhpb/1676109867736.jpg" alt="1676109867736" border="0"></a>
 </div>
 
