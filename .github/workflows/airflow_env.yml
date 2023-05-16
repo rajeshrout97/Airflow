@@ -1,1 +1,34 @@
+name: Deploy to EC2 Instance 
 
+# Controls when the action will run. 
+
+on:
+  push: 
+    
+    branches:  
+      - main
+    
+    paths: 
+      - 'airflow-scripts/**'  # this is our Folder name we created for Airflow
+
+    # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+        
+      
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: copy file via ssh key
+        uses: appleboy/scp-action@v0.1.4
+        with:
+          host: ec2-11-111-111-111.compute-1.amazonaws.com  # Your EC2 Host name
+          username: airflow  # Your EC2 Username
+          key: ${{ secrets.SSH_PRIVATE_KEY }}  # Secret Variable we created
+          source: Sample_ETL_Dag.py  # This is our Source File name placed in Airflow-scripts Folder
+          target: /home/airflow/airflow/dags/  # Your target folder in EC2 where you want to create the file
