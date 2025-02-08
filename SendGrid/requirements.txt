@@ -1,0 +1,7 @@
+apache-airflow-providers-microsoft-azure
+apache-airflow-providers-http
+apache-airflow-providers-apprise
+requests
+pendulum
+dateutil
+apprise
